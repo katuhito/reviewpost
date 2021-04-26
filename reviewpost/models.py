@@ -10,4 +10,4 @@ class ReviewModel(models.Model):
     images = models.ImageField(upload_to='')
     useful_review = models.IntegerField(null=True, blank=True, default=0)
     useful_review_record = models.TextField()
-    evalution = models.CharField(max_length=10, choices = EVALUATION_CHOICES)
+    evaluation = models.CharField(max_length=10, choices = EVALUATION_CHOICES)
